@@ -35,7 +35,7 @@ const create_item = () => {
       adding= false;
     }
     else{
-      error.innerHTML = false;
+      error.innerHTML = message;
     }
   });
 
